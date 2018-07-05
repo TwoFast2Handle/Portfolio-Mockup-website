@@ -1,0 +1,62 @@
+
+
+
+
+
+classh1 {
+  font-family: Slabo;
+}
+
+@media screen and (max-width:570px){
+ .square {
+  width: 100%;
+ }
+ .botMain {
+   display: block;
+ }
+ .topMain span {
+   width: 100%;
+   padding: 0.3em;
+ }
+ .profilePicture {
+   display: none;
+ }
+ .top_Area_Title {
+   height: auto;
+ }
+  .tatText, .logoSmall {
+    float: none;
+    width: 100%;
+    text-align: center;
+  }
+  .logoSmall img {
+    height: 100%;
+  }
+}
+@media screen and (min-width:570px){
+
+   .topMain span p {
+     font-size: 16px;
+   }
+   .logoSmall img {
+     height: 100%;
+   }
+}
+@media screen and (min-width:770px){
+  .logoSmall img {
+    height: 100%;
+  }
+ .topMain span p {
+   font-size: 20px;
+ }
+}
+@media screen and (min-width:1200px){
+ body {
+ width: 80%;
+ margin-left: 10%;
+ margin-right: 10%;
+ }
+ .logoSmall img {
+   height: 100%;
+ }
+}
